@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* :root {
+  --color-primary: #ec4755;
+  --color-secondary: #a12c34;
+  --color-tertiaty: #99a0a3;
+} */
+
+:root {
+  --color-primary: #ec4755;
+  --color-secondary: #a12c34;
+  --color-tertiaty: #99a0a3;
+}
+
+a { 
+  @apply text-red-700;
+}
+
+a:hover {
+  @apply border-b-2 border-red-700;
+}
+
+
+
+.content p {
+  @apply my-6;
+}
+
+.content ul {
+  @apply my-6;
+}
+
+.custom-font {
+  font-family: 'Open Sans', sans-serif; /* Replace with your desired font */
+  font-size: 20px; /* Adjust the size */
+  font-weight: 800; /* Adjust weight if needed */
+  color: #ec4755; /* Adjust the color if needed */
+}
+
+.custom-font-desc {
+  font-family: 'Open Sans', sans-serif;
+  font-size : 18px;
+  font-weight : 500;
+  color: #453d3f
+}
+
+.custom-connector {
+  height: 60px
+}
